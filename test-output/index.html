@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1976735276\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">51 methods,   51 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="delete_Remove_Playlist_items">delete_Remove_Playlist_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Album">get_Album</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Album_Track">get_Album_Track</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Artist">get_Artist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Artist_Album">get_Artist_Album</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Artist_Top_Tracks">get_Artist_Top_Tracks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_AudioBook">get_AudioBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Avaiable_Devices">get_Avaiable_Devices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Avaiable_Genre_Seeds">get_Avaiable_Genre_Seeds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Avaiable_Markets">get_Avaiable_Markets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Categories_Playlists">get_Categories_Playlists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Chapters">get_Chapters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Check_Users_Saved_Shows">get_Check_Users_Saved_Shows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Check_if_Users_follow_Playlists">get_Check_if_Users_follow_Playlists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Current_User_Playlists">get_Current_User_Playlists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Current_user_profile">get_Current_user_profile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Episode">get_Episode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Featured_Playlists">get_Featured_Playlists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_New_Releases">get_New_Releases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Play_State">get_Play_State</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Playlists">get_Playlists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Playlists_Cover_Image">get_Playlists_Cover_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Playlists_Items">get_Playlists_Items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Recently_played_tracks">get_Recently_played_tracks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Recommendations">get_Recommendations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Related_Artists">get_Related_Artists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Several_Album">get_Several_Album</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Several_Artists">get_Several_Artists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Several_AudioBooks">get_Several_AudioBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Several_Browse_Categories">get_Several_Browse_Categories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Several_Chapters">get_Several_Chapters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Several_Episode">get_Several_Episode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Several_Shows">get_Several_Shows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Several_Tracks">get_Several_Tracks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Show">get_Show</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Show_Episodes">get_Show_Episodes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Single_Browse_Categories">get_Single_Browse_Categories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Track">get_Track</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Tracks_Audio_Analysis">get_Tracks_Audio_Analysis</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Tracks_Audio_Features">get_Tracks_Audio_Features</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_Tracks_Audio_Features_id">get_Tracks_Audio_Features_id</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_User_Playlists">get_User_Playlists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_the_User_Queue">get_the_User_Queue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="get_user_profile">get_user_profile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="post_Add_items_to_Playlist">post_Add_items_to_Playlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="post_Create_Playlist">post_Create_Playlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="put_Add_Custom_Playlist_Cover_Image">put_Add_Custom_Playlist_Cover_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="put_Change_Playlist_details">put_Change_Playlist_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="put_Transfer_Playback">put_Transfer_Playback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="put_Update_Playlist_Items">put_Update_Playlist_Items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="bridgelabz.Spotify" class="method navigator-link" hash-for-method="search_the_items">search_the_items</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bridgelabz.Spotify</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete_Remove_Playlist_items">
+                  </a> <!-- delete_Remove_Playlist_items -->
+                  <span class="method-name">delete_Remove_Playlist_items</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Album">
+                  </a> <!-- get_Album -->
+                  <span class="method-name">get_Album</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Album_Track">
+                  </a> <!-- get_Album_Track -->
+                  <span class="method-name">get_Album_Track</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Artist">
+                  </a> <!-- get_Artist -->
+                  <span class="method-name">get_Artist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Artist_Album">
+                  </a> <!-- get_Artist_Album -->
+                  <span class="method-name">get_Artist_Album</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Artist_Top_Tracks">
+                  </a> <!-- get_Artist_Top_Tracks -->
+                  <span class="method-name">get_Artist_Top_Tracks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_AudioBook">
+                  </a> <!-- get_AudioBook -->
+                  <span class="method-name">get_AudioBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Avaiable_Devices">
+                  </a> <!-- get_Avaiable_Devices -->
+                  <span class="method-name">get_Avaiable_Devices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Avaiable_Genre_Seeds">
+                  </a> <!-- get_Avaiable_Genre_Seeds -->
+                  <span class="method-name">get_Avaiable_Genre_Seeds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Avaiable_Markets">
+                  </a> <!-- get_Avaiable_Markets -->
+                  <span class="method-name">get_Avaiable_Markets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Categories_Playlists">
+                  </a> <!-- get_Categories_Playlists -->
+                  <span class="method-name">get_Categories_Playlists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Chapters">
+                  </a> <!-- get_Chapters -->
+                  <span class="method-name">get_Chapters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Check_Users_Saved_Shows">
+                  </a> <!-- get_Check_Users_Saved_Shows -->
+                  <span class="method-name">get_Check_Users_Saved_Shows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Check_if_Users_follow_Playlists">
+                  </a> <!-- get_Check_if_Users_follow_Playlists -->
+                  <span class="method-name">get_Check_if_Users_follow_Playlists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Current_User_Playlists">
+                  </a> <!-- get_Current_User_Playlists -->
+                  <span class="method-name">get_Current_User_Playlists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Current_user_profile">
+                  </a> <!-- get_Current_user_profile -->
+                  <span class="method-name">get_Current_user_profile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Episode">
+                  </a> <!-- get_Episode -->
+                  <span class="method-name">get_Episode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Featured_Playlists">
+                  </a> <!-- get_Featured_Playlists -->
+                  <span class="method-name">get_Featured_Playlists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_New_Releases">
+                  </a> <!-- get_New_Releases -->
+                  <span class="method-name">get_New_Releases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Play_State">
+                  </a> <!-- get_Play_State -->
+                  <span class="method-name">get_Play_State</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Playlists">
+                  </a> <!-- get_Playlists -->
+                  <span class="method-name">get_Playlists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Playlists_Cover_Image">
+                  </a> <!-- get_Playlists_Cover_Image -->
+                  <span class="method-name">get_Playlists_Cover_Image</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Playlists_Items">
+                  </a> <!-- get_Playlists_Items -->
+                  <span class="method-name">get_Playlists_Items</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Recently_played_tracks">
+                  </a> <!-- get_Recently_played_tracks -->
+                  <span class="method-name">get_Recently_played_tracks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Recommendations">
+                  </a> <!-- get_Recommendations -->
+                  <span class="method-name">get_Recommendations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Related_Artists">
+                  </a> <!-- get_Related_Artists -->
+                  <span class="method-name">get_Related_Artists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Several_Album">
+                  </a> <!-- get_Several_Album -->
+                  <span class="method-name">get_Several_Album</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Several_Artists">
+                  </a> <!-- get_Several_Artists -->
+                  <span class="method-name">get_Several_Artists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Several_AudioBooks">
+                  </a> <!-- get_Several_AudioBooks -->
+                  <span class="method-name">get_Several_AudioBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Several_Browse_Categories">
+                  </a> <!-- get_Several_Browse_Categories -->
+                  <span class="method-name">get_Several_Browse_Categories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Several_Chapters">
+                  </a> <!-- get_Several_Chapters -->
+                  <span class="method-name">get_Several_Chapters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Several_Episode">
+                  </a> <!-- get_Several_Episode -->
+                  <span class="method-name">get_Several_Episode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Several_Shows">
+                  </a> <!-- get_Several_Shows -->
+                  <span class="method-name">get_Several_Shows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Several_Tracks">
+                  </a> <!-- get_Several_Tracks -->
+                  <span class="method-name">get_Several_Tracks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Show">
+                  </a> <!-- get_Show -->
+                  <span class="method-name">get_Show</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Show_Episodes">
+                  </a> <!-- get_Show_Episodes -->
+                  <span class="method-name">get_Show_Episodes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Single_Browse_Categories">
+                  </a> <!-- get_Single_Browse_Categories -->
+                  <span class="method-name">get_Single_Browse_Categories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Track">
+                  </a> <!-- get_Track -->
+                  <span class="method-name">get_Track</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Tracks_Audio_Analysis">
+                  </a> <!-- get_Tracks_Audio_Analysis -->
+                  <span class="method-name">get_Tracks_Audio_Analysis</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Tracks_Audio_Features">
+                  </a> <!-- get_Tracks_Audio_Features -->
+                  <span class="method-name">get_Tracks_Audio_Features</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_Tracks_Audio_Features_id">
+                  </a> <!-- get_Tracks_Audio_Features_id -->
+                  <span class="method-name">get_Tracks_Audio_Features_id</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_User_Playlists">
+                  </a> <!-- get_User_Playlists -->
+                  <span class="method-name">get_User_Playlists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_the_User_Queue">
+                  </a> <!-- get_the_User_Queue -->
+                  <span class="method-name">get_the_User_Queue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_user_profile">
+                  </a> <!-- get_user_profile -->
+                  <span class="method-name">get_user_profile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_Add_items_to_Playlist">
+                  </a> <!-- post_Add_items_to_Playlist -->
+                  <span class="method-name">post_Add_items_to_Playlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_Create_Playlist">
+                  </a> <!-- post_Create_Playlist -->
+                  <span class="method-name">post_Create_Playlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="put_Add_Custom_Playlist_Cover_Image">
+                  </a> <!-- put_Add_Custom_Playlist_Cover_Image -->
+                  <span class="method-name">put_Add_Custom_Playlist_Cover_Image</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="put_Change_Playlist_details">
+                  </a> <!-- put_Change_Playlist_details -->
+                  <span class="method-name">put_Change_Playlist_details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="put_Transfer_Playback">
+                  </a> <!-- put_Transfer_Playback -->
+                  <span class="method-name">put_Transfer_Playback</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="put_Update_Playlist_Items">
+                  </a> <!-- put_Update_Playlist_Items -->
+                  <span class="method-name">put_Update_Playlist_Items</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_the_items">
+                  </a> <!-- search_the_items -->
+                  <span class="method-name">search_the_items</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1976735276\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bridgelabz.Spotify&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(51);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'delete_Remove_Playlist_items')
+data.setCell(0, 2, 'bridgelabz.Spotify')
+data.setCell(0, 3, 3561);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'get_Tracks_Audio_Analysis')
+data.setCell(1, 2, 'bridgelabz.Spotify')
+data.setCell(1, 3, 1199);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'get_Current_User_Playlists')
+data.setCell(2, 2, 'bridgelabz.Spotify')
+data.setCell(2, 3, 866);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'get_Recommendations')
+data.setCell(3, 2, 'bridgelabz.Spotify')
+data.setCell(3, 3, 555);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'get_Show')
+data.setCell(4, 2, 'bridgelabz.Spotify')
+data.setCell(4, 3, 494);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'get_Show_Episodes')
+data.setCell(5, 2, 'bridgelabz.Spotify')
+data.setCell(5, 3, 481);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'get_Check_if_Users_follow_Playlists')
+data.setCell(6, 2, 'bridgelabz.Spotify')
+data.setCell(6, 3, 423);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'get_Artist_Album')
+data.setCell(7, 2, 'bridgelabz.Spotify')
+data.setCell(7, 3, 416);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'search_the_items')
+data.setCell(8, 2, 'bridgelabz.Spotify')
+data.setCell(8, 3, 416);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'put_Change_Playlist_details')
+data.setCell(9, 2, 'bridgelabz.Spotify')
+data.setCell(9, 3, 353);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'get_Current_user_profile')
+data.setCell(10, 2, 'bridgelabz.Spotify')
+data.setCell(10, 3, 350);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'get_New_Releases')
+data.setCell(11, 2, 'bridgelabz.Spotify')
+data.setCell(11, 3, 338);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'get_Categories_Playlists')
+data.setCell(12, 2, 'bridgelabz.Spotify')
+data.setCell(12, 3, 334);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'get_Avaiable_Devices')
+data.setCell(13, 2, 'bridgelabz.Spotify')
+data.setCell(13, 3, 331);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'get_Album')
+data.setCell(14, 2, 'bridgelabz.Spotify')
+data.setCell(14, 3, 324);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'get_User_Playlists')
+data.setCell(15, 2, 'bridgelabz.Spotify')
+data.setCell(15, 3, 315);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'get_Playlists')
+data.setCell(16, 2, 'bridgelabz.Spotify')
+data.setCell(16, 3, 299);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'get_Artist_Top_Tracks')
+data.setCell(17, 2, 'bridgelabz.Spotify')
+data.setCell(17, 3, 289);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'get_Several_Chapters')
+data.setCell(18, 2, 'bridgelabz.Spotify')
+data.setCell(18, 3, 282);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'get_Related_Artists')
+data.setCell(19, 2, 'bridgelabz.Spotify')
+data.setCell(19, 3, 263);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'get_Several_Episode')
+data.setCell(20, 2, 'bridgelabz.Spotify')
+data.setCell(20, 3, 263);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'post_Add_items_to_Playlist')
+data.setCell(21, 2, 'bridgelabz.Spotify')
+data.setCell(21, 3, 260);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'get_Several_Shows')
+data.setCell(22, 2, 'bridgelabz.Spotify')
+data.setCell(22, 3, 260);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'put_Update_Playlist_Items')
+data.setCell(23, 2, 'bridgelabz.Spotify')
+data.setCell(23, 3, 250);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'get_the_User_Queue')
+data.setCell(24, 2, 'bridgelabz.Spotify')
+data.setCell(24, 3, 249);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'get_Several_Album')
+data.setCell(25, 2, 'bridgelabz.Spotify')
+data.setCell(25, 3, 245);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'get_user_profile')
+data.setCell(26, 2, 'bridgelabz.Spotify')
+data.setCell(26, 3, 242);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'get_Track')
+data.setCell(27, 2, 'bridgelabz.Spotify')
+data.setCell(27, 3, 241);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'get_Playlists_Items')
+data.setCell(28, 2, 'bridgelabz.Spotify')
+data.setCell(28, 3, 241);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'get_Several_AudioBooks')
+data.setCell(29, 2, 'bridgelabz.Spotify')
+data.setCell(29, 3, 239);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'get_Featured_Playlists')
+data.setCell(30, 2, 'bridgelabz.Spotify')
+data.setCell(30, 3, 238);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'get_Several_Artists')
+data.setCell(31, 2, 'bridgelabz.Spotify')
+data.setCell(31, 3, 238);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'get_Tracks_Audio_Features')
+data.setCell(32, 2, 'bridgelabz.Spotify')
+data.setCell(32, 3, 232);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'get_Episode')
+data.setCell(33, 2, 'bridgelabz.Spotify')
+data.setCell(33, 3, 232);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'get_Chapters')
+data.setCell(34, 2, 'bridgelabz.Spotify')
+data.setCell(34, 3, 231);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'get_Tracks_Audio_Features_id')
+data.setCell(35, 2, 'bridgelabz.Spotify')
+data.setCell(35, 3, 230);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'get_Recently_played_tracks')
+data.setCell(36, 2, 'bridgelabz.Spotify')
+data.setCell(36, 3, 229);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'get_Several_Browse_Categories')
+data.setCell(37, 2, 'bridgelabz.Spotify')
+data.setCell(37, 3, 226);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'get_Artist')
+data.setCell(38, 2, 'bridgelabz.Spotify')
+data.setCell(38, 3, 225);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'get_Check_Users_Saved_Shows')
+data.setCell(39, 2, 'bridgelabz.Spotify')
+data.setCell(39, 3, 225);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'get_Play_State')
+data.setCell(40, 2, 'bridgelabz.Spotify')
+data.setCell(40, 3, 219);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'get_Single_Browse_Categories')
+data.setCell(41, 2, 'bridgelabz.Spotify')
+data.setCell(41, 3, 217);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'get_Album_Track')
+data.setCell(42, 2, 'bridgelabz.Spotify')
+data.setCell(42, 3, 217);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'get_Avaiable_Markets')
+data.setCell(43, 2, 'bridgelabz.Spotify')
+data.setCell(43, 3, 216);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'get_Playlists_Cover_Image')
+data.setCell(44, 2, 'bridgelabz.Spotify')
+data.setCell(44, 3, 215);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'get_Several_Tracks')
+data.setCell(45, 2, 'bridgelabz.Spotify')
+data.setCell(45, 3, 215);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'put_Add_Custom_Playlist_Cover_Image')
+data.setCell(46, 2, 'bridgelabz.Spotify')
+data.setCell(46, 3, 214);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'get_AudioBook')
+data.setCell(47, 2, 'bridgelabz.Spotify')
+data.setCell(47, 3, 213);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'post_Create_Playlist')
+data.setCell(48, 2, 'bridgelabz.Spotify')
+data.setCell(48, 3, 209);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'put_Transfer_Playback')
+data.setCell(49, 2, 'bridgelabz.Spotify')
+data.setCell(49, 3, 201);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'get_Avaiable_Genre_Seeds')
+data.setCell(50, 2, 'bridgelabz.Spotify')
+data.setCell(50, 3, 200);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">bridgelabz.Spotify</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">delete_Remove_Playlist_items</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Album</span>
+                <span class="method-start">3569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Album_Track</span>
+                <span class="method-start">3901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Artist</span>
+                <span class="method-start">4121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Artist_Album</span>
+                <span class="method-start">4351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Artist_Top_Tracks</span>
+                <span class="method-start">4771 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_AudioBook</span>
+                <span class="method-start">5067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Avaiable_Devices</span>
+                <span class="method-start">5286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Avaiable_Genre_Seeds</span>
+                <span class="method-start">5618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Avaiable_Markets</span>
+                <span class="method-start">5823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Categories_Playlists</span>
+                <span class="method-start">6041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Chapters</span>
+                <span class="method-start">6379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Check_Users_Saved_Shows</span>
+                <span class="method-start">6616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Check_if_Users_follow_Playlists</span>
+                <span class="method-start">6845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Current_User_Playlists</span>
+                <span class="method-start">7271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Current_user_profile</span>
+                <span class="method-start">8139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Episode</span>
+                <span class="method-start">8494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Featured_Playlists</span>
+                <span class="method-start">8730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_New_Releases</span>
+                <span class="method-start">8969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Play_State</span>
+                <span class="method-start">9310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Playlists</span>
+                <span class="method-start">9534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Playlists_Cover_Image</span>
+                <span class="method-start">9837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Playlists_Items</span>
+                <span class="method-start">10053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Recently_played_tracks</span>
+                <span class="method-start">10295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Recommendations</span>
+                <span class="method-start">10528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Related_Artists</span>
+                <span class="method-start">11099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Several_Album</span>
+                <span class="method-start">11364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Several_Artists</span>
+                <span class="method-start">11613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Several_AudioBooks</span>
+                <span class="method-start">11854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Several_Browse_Categories</span>
+                <span class="method-start">12096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Several_Chapters</span>
+                <span class="method-start">12325 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Several_Episode</span>
+                <span class="method-start">12610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Several_Shows</span>
+                <span class="method-start">12880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Several_Tracks</span>
+                <span class="method-start">13142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Show</span>
+                <span class="method-start">13360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Show_Episodes</span>
+                <span class="method-start">13855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Single_Browse_Categories</span>
+                <span class="method-start">14339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Track</span>
+                <span class="method-start">14559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Tracks_Audio_Analysis</span>
+                <span class="method-start">14802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Tracks_Audio_Features</span>
+                <span class="method-start">16002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_Tracks_Audio_Features_id</span>
+                <span class="method-start">16235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_User_Playlists</span>
+                <span class="method-start">16465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_the_User_Queue</span>
+                <span class="method-start">16787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">get_user_profile</span>
+                <span class="method-start">17038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_Add_items_to_Playlist</span>
+                <span class="method-start">17281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_Create_Playlist</span>
+                <span class="method-start">17544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">put_Add_Custom_Playlist_Cover_Image</span>
+                <span class="method-start">17755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">put_Change_Playlist_details</span>
+                <span class="method-start">17970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">put_Transfer_Playback</span>
+                <span class="method-start">18326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">put_Update_Playlist_Items</span>
+                <span class="method-start">18529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search_the_items</span>
+                <span class="method-start">18780 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

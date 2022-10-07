@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="51" passed="51" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T19:43:44 IST" name="Default suite" finished-at="2022-10-07T19:44:03 IST" duration-ms="19258">
+    <groups>
+    </groups>
+    <test started-at="2022-10-07T19:43:44 IST" name="Default test" finished-at="2022-10-07T19:44:03 IST" duration-ms="19258">
+      <class name="bridgelabz.Spotify">
+        <test-method signature="delete_Remove_Playlist_items()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:44 IST" name="delete_Remove_Playlist_items" finished-at="2022-10-07T19:43:48 IST" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Remove_Playlist_items -->
+        <test-method signature="get_Album()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:48 IST" name="get_Album" finished-at="2022-10-07T19:43:48 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Album -->
+        <test-method signature="get_Album_Track()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:48 IST" name="get_Album_Track" finished-at="2022-10-07T19:43:48 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Album_Track -->
+        <test-method signature="get_Artist()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:48 IST" name="get_Artist" finished-at="2022-10-07T19:43:49 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Artist -->
+        <test-method signature="get_Artist_Album()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:49 IST" name="get_Artist_Album" finished-at="2022-10-07T19:43:49 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Artist_Album -->
+        <test-method signature="get_Artist_Top_Tracks()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:49 IST" name="get_Artist_Top_Tracks" finished-at="2022-10-07T19:43:49 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Artist_Top_Tracks -->
+        <test-method signature="get_AudioBook()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:49 IST" name="get_AudioBook" finished-at="2022-10-07T19:43:50 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_AudioBook -->
+        <test-method signature="get_Avaiable_Devices()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:50 IST" name="get_Avaiable_Devices" finished-at="2022-10-07T19:43:50 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Avaiable_Devices -->
+        <test-method signature="get_Avaiable_Genre_Seeds()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:50 IST" name="get_Avaiable_Genre_Seeds" finished-at="2022-10-07T19:43:50 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Avaiable_Genre_Seeds -->
+        <test-method signature="get_Avaiable_Markets()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:50 IST" name="get_Avaiable_Markets" finished-at="2022-10-07T19:43:50 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Avaiable_Markets -->
+        <test-method signature="get_Categories_Playlists()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:50 IST" name="get_Categories_Playlists" finished-at="2022-10-07T19:43:51 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Categories_Playlists -->
+        <test-method signature="get_Chapters()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:51 IST" name="get_Chapters" finished-at="2022-10-07T19:43:51 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Chapters -->
+        <test-method signature="get_Check_Users_Saved_Shows()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:51 IST" name="get_Check_Users_Saved_Shows" finished-at="2022-10-07T19:43:51 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Check_Users_Saved_Shows -->
+        <test-method signature="get_Check_if_Users_follow_Playlists()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:51 IST" name="get_Check_if_Users_follow_Playlists" finished-at="2022-10-07T19:43:52 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Check_if_Users_follow_Playlists -->
+        <test-method signature="get_Current_User_Playlists()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:52 IST" name="get_Current_User_Playlists" finished-at="2022-10-07T19:43:52 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Current_User_Playlists -->
+        <test-method signature="get_Current_user_profile()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:52 IST" name="get_Current_user_profile" finished-at="2022-10-07T19:43:53 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Current_user_profile -->
+        <test-method signature="get_Episode()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:53 IST" name="get_Episode" finished-at="2022-10-07T19:43:53 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Episode -->
+        <test-method signature="get_Featured_Playlists()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:53 IST" name="get_Featured_Playlists" finished-at="2022-10-07T19:43:53 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Featured_Playlists -->
+        <test-method signature="get_New_Releases()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:53 IST" name="get_New_Releases" finished-at="2022-10-07T19:43:54 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_New_Releases -->
+        <test-method signature="get_Play_State()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:54 IST" name="get_Play_State" finished-at="2022-10-07T19:43:54 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Play_State -->
+        <test-method signature="get_Playlists()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:54 IST" name="get_Playlists" finished-at="2022-10-07T19:43:54 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Playlists -->
+        <test-method signature="get_Playlists_Cover_Image()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:54 IST" name="get_Playlists_Cover_Image" finished-at="2022-10-07T19:43:54 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Playlists_Cover_Image -->
+        <test-method signature="get_Playlists_Items()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:54 IST" name="get_Playlists_Items" finished-at="2022-10-07T19:43:55 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Playlists_Items -->
+        <test-method signature="get_Recently_played_tracks()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:55 IST" name="get_Recently_played_tracks" finished-at="2022-10-07T19:43:55 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Recently_played_tracks -->
+        <test-method signature="get_Recommendations()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:55 IST" name="get_Recommendations" finished-at="2022-10-07T19:43:55 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Recommendations -->
+        <test-method signature="get_Related_Artists()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:55 IST" name="get_Related_Artists" finished-at="2022-10-07T19:43:56 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Related_Artists -->
+        <test-method signature="get_Several_Album()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:56 IST" name="get_Several_Album" finished-at="2022-10-07T19:43:56 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_Album -->
+        <test-method signature="get_Several_Artists()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:56 IST" name="get_Several_Artists" finished-at="2022-10-07T19:43:56 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_Artists -->
+        <test-method signature="get_Several_AudioBooks()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:56 IST" name="get_Several_AudioBooks" finished-at="2022-10-07T19:43:56 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_AudioBooks -->
+        <test-method signature="get_Several_Browse_Categories()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:56 IST" name="get_Several_Browse_Categories" finished-at="2022-10-07T19:43:57 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_Browse_Categories -->
+        <test-method signature="get_Several_Chapters()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:57 IST" name="get_Several_Chapters" finished-at="2022-10-07T19:43:57 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_Chapters -->
+        <test-method signature="get_Several_Episode()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:57 IST" name="get_Several_Episode" finished-at="2022-10-07T19:43:57 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_Episode -->
+        <test-method signature="get_Several_Shows()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:57 IST" name="get_Several_Shows" finished-at="2022-10-07T19:43:57 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_Shows -->
+        <test-method signature="get_Several_Tracks()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:57 IST" name="get_Several_Tracks" finished-at="2022-10-07T19:43:58 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_Tracks -->
+        <test-method signature="get_Show()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:58 IST" name="get_Show" finished-at="2022-10-07T19:43:58 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Show -->
+        <test-method signature="get_Show_Episodes()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:58 IST" name="get_Show_Episodes" finished-at="2022-10-07T19:43:59 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Show_Episodes -->
+        <test-method signature="get_Single_Browse_Categories()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:59 IST" name="get_Single_Browse_Categories" finished-at="2022-10-07T19:43:59 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Single_Browse_Categories -->
+        <test-method signature="get_Track()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:59 IST" name="get_Track" finished-at="2022-10-07T19:43:59 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Track -->
+        <test-method signature="get_Tracks_Audio_Analysis()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:43:59 IST" name="get_Tracks_Audio_Analysis" finished-at="2022-10-07T19:44:00 IST" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Tracks_Audio_Analysis -->
+        <test-method signature="get_Tracks_Audio_Features()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:00 IST" name="get_Tracks_Audio_Features" finished-at="2022-10-07T19:44:00 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Tracks_Audio_Features -->
+        <test-method signature="get_Tracks_Audio_Features_id()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:00 IST" name="get_Tracks_Audio_Features_id" finished-at="2022-10-07T19:44:01 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Tracks_Audio_Features_id -->
+        <test-method signature="get_User_Playlists()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:01 IST" name="get_User_Playlists" finished-at="2022-10-07T19:44:01 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_User_Playlists -->
+        <test-method signature="get_the_User_Queue()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:01 IST" name="get_the_User_Queue" finished-at="2022-10-07T19:44:01 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_the_User_Queue -->
+        <test-method signature="get_user_profile()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:01 IST" name="get_user_profile" finished-at="2022-10-07T19:44:02 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_user_profile -->
+        <test-method signature="post_Add_items_to_Playlist()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:02 IST" name="post_Add_items_to_Playlist" finished-at="2022-10-07T19:44:02 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Add_items_to_Playlist -->
+        <test-method signature="post_Create_Playlist()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:02 IST" name="post_Create_Playlist" finished-at="2022-10-07T19:44:02 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Create_Playlist -->
+        <test-method signature="put_Add_Custom_Playlist_Cover_Image()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:02 IST" name="put_Add_Custom_Playlist_Cover_Image" finished-at="2022-10-07T19:44:02 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_Add_Custom_Playlist_Cover_Image -->
+        <test-method signature="put_Change_Playlist_details()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:02 IST" name="put_Change_Playlist_details" finished-at="2022-10-07T19:44:03 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_Change_Playlist_details -->
+        <test-method signature="put_Transfer_Playback()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:03 IST" name="put_Transfer_Playback" finished-at="2022-10-07T19:44:03 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_Transfer_Playback -->
+        <test-method signature="put_Update_Playlist_Items()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:03 IST" name="put_Update_Playlist_Items" finished-at="2022-10-07T19:44:03 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put_Update_Playlist_Items -->
+        <test-method signature="search_the_items()[pri:0, instance:bridgelabz.Spotify@3c130745]" started-at="2022-10-07T19:44:03 IST" name="search_the_items" finished-at="2022-10-07T19:44:03 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_the_items -->
+      </class> <!-- bridgelabz.Spotify -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

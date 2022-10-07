@@ -1,0 +1,334 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>51/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 07 19:43:44 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19258 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Playlists()'><b>get_Playlists</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Artist()'><b>get_Artist</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Several_Browse_Categories()'><b>get_Several_Browse_Categories</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Several_Chapters()'><b>get_Several_Chapters</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Artist_Album()'><b>get_Artist_Album</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.search_the_items()'><b>search_the_items</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Current_User_Playlists()'><b>get_Current_User_Playlists</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.put_Add_Custom_Playlist_Cover_Image()'><b>put_Add_Custom_Playlist_Cover_Image</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.post_Create_Playlist()'><b>post_Create_Playlist</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Tracks_Audio_Analysis()'><b>get_Tracks_Audio_Analysis</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>1</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_the_User_Queue()'><b>get_the_User_Queue</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Show()'><b>get_Show</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.put_Update_Playlist_Items()'><b>put_Update_Playlist_Items</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Current_user_profile()'><b>get_Current_user_profile</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.put_Change_Playlist_details()'><b>put_Change_Playlist_details</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Tracks_Audio_Features()'><b>get_Tracks_Audio_Features</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_User_Playlists()'><b>get_User_Playlists</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Playlists_Cover_Image()'><b>get_Playlists_Cover_Image</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Chapters()'><b>get_Chapters</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Single_Browse_Categories()'><b>get_Single_Browse_Categories</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.post_Add_items_to_Playlist()'><b>post_Add_items_to_Playlist</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Episode()'><b>get_Episode</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Featured_Playlists()'><b>get_Featured_Playlists</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Track()'><b>get_Track</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Play_State()'><b>get_Play_State</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Check_if_Users_follow_Playlists()'><b>get_Check_if_Users_follow_Playlists</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.delete_Remove_Playlist_items()'><b>delete_Remove_Playlist_items</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>3</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Several_Shows()'><b>get_Several_Shows</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Recommendations()'><b>get_Recommendations</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.put_Transfer_Playback()'><b>put_Transfer_Playback</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Album()'><b>get_Album</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Recently_played_tracks()'><b>get_Recently_played_tracks</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Playlists_Items()'><b>get_Playlists_Items</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_New_Releases()'><b>get_New_Releases</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Several_AudioBooks()'><b>get_Several_AudioBooks</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Show_Episodes()'><b>get_Show_Episodes</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Avaiable_Genre_Seeds()'><b>get_Avaiable_Genre_Seeds</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Check_Users_Saved_Shows()'><b>get_Check_Users_Saved_Shows</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Categories_Playlists()'><b>get_Categories_Playlists</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Tracks_Audio_Features_id()'><b>get_Tracks_Audio_Features_id</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Artist_Top_Tracks()'><b>get_Artist_Top_Tracks</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_AudioBook()'><b>get_AudioBook</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_user_profile()'><b>get_user_profile</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Related_Artists()'><b>get_Related_Artists</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Several_Episode()'><b>get_Several_Episode</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Several_Album()'><b>get_Several_Album</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Several_Artists()'><b>get_Several_Artists</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Album_Track()'><b>get_Album_Track</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Avaiable_Devices()'><b>get_Avaiable_Devices</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Avaiable_Markets()'><b>get_Avaiable_Markets</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+<tr>
+<td title='bridgelabz.Spotify.get_Several_Tracks()'><b>get_Several_Tracks</b><br>Test class: bridgelabz.Spotify</td>
+<td></td>
+<td>0</td>
+<td>bridgelabz.Spotify@3c130745</td></tr>
+</table><p>
+</body>
+</html>
